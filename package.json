@@ -1,0 +1,27 @@
+{
+  "name": "aggregated-flashloans",
+  "version": "0.0.1",
+  "description": "Truffle project which uses the Kollateral protocol to aggregate flash liquidity from both DyDx and Aave within the same transaction. ",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "truffle-hdwallet-provider": "^1.0.17"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fifikobayashi/Aggregated-Flashloan.git"
+  },
+  "author": "@fifikobayashi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fifikobayashi/Aggregated-Flashloan/issues"
+  },
+  "homepage": "https://github.com/fifikobayashi/Aggregated-Flashloan#readme"
+}
