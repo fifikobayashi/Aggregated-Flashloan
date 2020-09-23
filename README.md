@@ -76,10 +76,9 @@ Kollateral currently charges 6bps on the flash liquidity that is sourced. In add
 If there is not enough funds on the contract to repay the loan + fees then the TX will be reverted.
 
 ## Trouble shooting
-* If you keep getting a *Callback was already called* error when deploying contracts via Truffle/Infura, it's because ganache-cli's internal core is not yet node v14 compatible, so just use 'truffle migrate --network ropsten --skipDryRun'.
+* If you keep getting a *Callback was already called* error when deploying contracts via Truffle/Infura/Node14, it's because ganache-cli's internal core is not yet node v14 compatible, so just use 'truffle migrate --network ropsten --skipDryRun'.
 * Failed Tx with *ExternalCaller: insufficient ether balance* - this means you forgot to send some ether to this contract to cover the aggregation and flash loan fees. 
 * Failed Tx with *Invoker: not enough liquidity* - this means you're asking for too much liquidity than the aggregate pools can handle at this point in time, particularly prevalent in testnets with limited liquidity. Reduce your flash amount.
-* How do I install/setup Truffle/Infura/.gitignore..etc - please refer to their respective websites and technical forums.
 
 <br /><br />
 If you found this useful and would like to send me some gas money: 
