@@ -11,7 +11,7 @@ contract AggregatedFlashloans is KollateralInvokable {
   // initialize deployment parameters
   constructor() public{
       owner = msg.sender;
-       INVOKER_ROPSTEN = address(0x234A76352e816c48098F20F830A21c820085b902); //Kollateral inovker on Ropsten
+       INVOKER_ROPSTEN = address(0x234A76352e816c48098F20F830A21c820085b902); //Kollateral invoker on Ropsten
   }
 
   // only the contract owner can call fund
