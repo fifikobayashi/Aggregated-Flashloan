@@ -7,7 +7,7 @@
     "test": "test"
   },
   "dependencies": {
-    "dotenv": "^8.2.0",
+    "dotenv": "^8.6.0",
     "truffle-hdwallet-provider": "^1.0.17"
   },
   "devDependencies": {},
